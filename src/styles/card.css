@@ -1,0 +1,63 @@
+/* components/Card.module.css */
+.card {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .meta {
+    font-style: italic;
+    color: #666;
+  }
+  
+  .content {
+    margin-top: 10px;
+  }
+  
+  .readMore {
+    color: #0070f3;
+    text-decoration: none;
+    font-weight: bold;
+  }
+
+  /* pages/blog/BlogDetail.module.css */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .backButton {
+    background-color: #0070f3;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 20px;
+  }
+  
+  .backButton:hover {
+    background-color: #005bb5;
+  }
+  
+  .detail-page-title {
+    font-size: 2em;
+    margin-bottom: 10px;
+  }
+  
+  .meta-data {
+    color: #666;
+    font-style: italic;
+    margin-bottom: 10px;
+  }
+  
+  .detailed-content {
+    line-height: 1.6;
+  }
+  
+  
