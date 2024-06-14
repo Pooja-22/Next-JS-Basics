@@ -12,8 +12,10 @@ Next-JS Basics
 # Consume APIs in the Application
 
 - Frontend Components
-    Form Component: /src/components/CreatePost.tsx
-    List View: src/pages/api/posts/index.tsx
+
+    - Form Component: /src/components/CreatePost.tsx
+
+    - List View: src/pages/api/posts/index.tsx
 
 # API Endpoints
 
