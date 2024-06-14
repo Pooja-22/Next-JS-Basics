@@ -19,16 +19,17 @@ Next-JS Basics
 
 - Create a Post
 
-    URL: /api/posts/create
-    Method: POST
-    Request Body:json
+    POST: /api/posts
+
+    Request
+    
     {
         "author": "John Doe",
         "title": "My First Blog Post",
         "content": "Lorem ipsum dolor sit amet..."
     }
     
-    Response: json
+    Response
 
     {
         "success": true,
@@ -44,9 +45,7 @@ Next-JS Basics
 
 - Read All Posts
 
-    URL: /api/posts
-    Method: GET
-    Response: json
+    GET: /api/posts
     
     {
         "success": true,
@@ -71,9 +70,7 @@ Next-JS Basics
 
 - Read Single Post
 
-    URL: /api/posts/:id
-    Method: GET
-    Response: json
+    GET: /api/posts/:id
 
     {
         "success": true,
@@ -88,11 +85,9 @@ Next-JS Basics
 
 - Delete a Post
 
-    URL: /api/posts/:id
-    Method: DELETE
-    Response: json
+    DELETE: /api/posts/:id
         
     {
         "success": true,
         "message": "Post deleted successfully"
-        }
+    }
