@@ -17,7 +17,7 @@ export default function Blog() {
     <Layout>
       <div>
         {posts.map((post) => (
-          <Card key={post.id} post={post} />
+          <Card key={post.id} post={post} link={`/blog/${post.id}`}/>
         ))}
       </div>
     </Layout>
